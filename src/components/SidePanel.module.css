@@ -1,0 +1,84 @@
+.go,
+.goSolo {
+  margin: 0;
+}
+.goSolo {
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.card1,
+.profileCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-146xl);
+}
+.profileCard {
+  width: 321px;
+  flex-direction: column;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.card3,
+.cardPanel,
+.sidePanel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.card3 {
+  width: 303px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-146xl);
+  box-sizing: border-box;
+}
+.cardPanel,
+.sidePanel {
+  max-width: 100%;
+}
+.cardPanel {
+  justify-content: center;
+  gap: var(--gap-27xl);
+}
+.sidePanel {
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .cardPanel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .goSolo {
+    font-size: var(--font-size-29xl);
+  }
+  .cardPanel {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .goSolo {
+    font-size: var(--font-size-17xl);
+  }
+}

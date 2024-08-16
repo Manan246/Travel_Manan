@@ -1,0 +1,80 @@
+.travelsathi {
+  text-decoration: none;
+  width: 344px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.frameChild {
+  height: 32.5px;
+  width: 119px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+}
+.signlogIn {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+}
+.endTaskInner,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-4xs-5)
+    var(--padding-smi);
+  white-space: nowrap;
+}
+.endTaskInner {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.endTask,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.endTask {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-4xl) var(--padding-8xs)
+    var(--padding-3xl);
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.navigation {
+  height: 57px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-38xl);
+  margin-left: -1440px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
